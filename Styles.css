@@ -1,56 +1,84 @@
- .container {
-     border: 1px, solide none;
-     background-image: -moz-repeating-linear-gradient(white skyblue);
- }
+body {
+    font-family: arial, sans-serif;
+}
 
- .weathercondition2 {
-     position: relative;
-     margin-top: -70px;
-     margin-left: 250px;
-     line-height: .5;
-     font-style: italic;
-     margin-bottom: 50px;
+h1 {
+    color: #080505;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
 
- }
+ul {
+    margin: 0 0 10px;
+    padding: 0;
+}
 
- .weathercondition1 {
-     line-height: .5;
-     text-align: left;
-     margin-left: 50px;
+li {
+    color: #080505;
+    ;
+    font-size: 16px;
+    font-weight: 100;
+    height: 22px;
+    line-height: 1;
+    list-style: none;
+}
 
+.container {
+    border: 2px none solid;
+    background-image: -webkit-linear-gradient(skyblue, white);
+    border-radius: 0px 0px 100px 0px;
+    box-shadow: 10px 10px 7px gray;
+    padding: 20px 20px 20px 30px;
+    margin: 30px auto;
+    max-width: 570px;
+    background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/044/665/original/Weather3.jpg?1661547712');
+    background-size: 100%;
+}
 
- }
+.wweather-des {
+    text-align: center;
+}
 
- .temp {
-     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-     font-size: 25px;
- }
+.temperature {
+    color: #080505;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1;
+}
 
- .pagecontent {
-     border: 2px none solid;
-     background-image: -webkit-linear-gradient(skyblue, white);
-     text-align: center;
-     margin-right: 850px;
-     border-radius: 0 0 100px 0px;
-     box-shadow: 10px 10px 7px gray;
-     margin-top: 10px
- }
+.units {
+    position: relative;
+    top: -34px;
+}
 
- .colwidth {
-     display: grid;
-     column-gap: 0px;
-     grid-template-columns: 105px 105px 105px 105px 105px;
-     margin: 0;
- }
+.search-form {
+    margin-bottom: 20px;
+}
 
- .tempemoji {
-     position: relative;
-     margin-top: -50px;
-     text-align: left;
-     margin-left: 50px;
+.footer {
+    font-size: x-small;
+    text-align: center;
+    margin-top: 10px;
+}
 
- }
+.col-4 {
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
 
- .cloud-icon {
-     font-size: 50px;
- }
+.weathercondition1 {
+    text-align: center;
+}
+
+.temp {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icon {
+    text-align: center;
+    font-size: 100px;
+    margin-top: -50px;
+}
